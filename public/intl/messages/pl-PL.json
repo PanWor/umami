@@ -524,7 +524,7 @@
   "label.entry": [
     {
       "type": 0,
-      "value": "Entry URL"
+      "value": "Strona wejściowa"
     }
   ],
   "label.event": [
@@ -560,7 +560,7 @@
   "label.exit": [
     {
       "type": 0,
-      "value": "URL wyjściowy"
+      "value": "Strona wyjściowa"
     }
   ],
   "label.false": [
@@ -614,7 +614,7 @@
   "label.first-seen": [
     {
       "type": 0,
-      "value": "First seen"
+      "value": "Pierwsza wizyta"
     }
   ],
   "label.funnel": [
@@ -650,7 +650,7 @@
   "label.goals-description": [
     {
       "type": 0,
-      "value": "Track your goals for pageviews and events."
+      "value": "Śledź swoje cele dotyczące wyświetleń stron i zdarzeń."
     }
   ],
   "label.greater-than": [
@@ -884,13 +884,13 @@
   "label.manage": [
     {
       "type": 0,
-      "value": "Manage"
+      "value": "Zarządzaj"
     }
   ],
   "label.manager": [
     {
       "type": 0,
-      "value": "Manager"
+      "value": "Menedżer"
     }
   ],
   "label.max": [
@@ -1630,19 +1630,19 @@
   "label.transactions": [
     {
       "type": 0,
-      "value": "Transactions"
+      "value": "Transakcje"
     }
   ],
   "label.transfer": [
     {
       "type": 0,
-      "value": "Transfer"
+      "value": "Przenieś"
     }
   ],
   "label.transfer-website": [
     {
       "type": 0,
-      "value": "Transfer website"
+      "value": "Przenieś witrynę"
     }
   ],
   "label.true": [
@@ -1672,7 +1672,7 @@
   "label.uniqueCustomers": [
     {
       "type": 0,
-      "value": "Unique Customers"
+      "value": "Unikalni klienci"
     }
   ],
   "label.unknown": [
@@ -1858,7 +1858,7 @@
   "message.bad-request": [
     {
       "type": 0,
-      "value": "Bad request"
+      "value": "Nieprawidłowe żądanie"
     }
   ],
   "message.collected-data": [
@@ -1958,7 +1958,7 @@
   "message.forbidden": [
     {
       "type": 0,
-      "value": "Forbidden"
+      "value": "Brak dostępu"
     }
   ],
   "message.go-to-settings": [
@@ -1976,7 +1976,7 @@
   "message.invalid-domain": [
     {
       "type": 0,
-      "value": "Nieprawidłowa witryna"
+      "value": "Nieprawidłowa domena. Nie wpisuj http/https."
     }
   ],
   "message.min-password-length": [
@@ -2058,13 +2058,13 @@
   "message.not-found": [
     {
       "type": 0,
-      "value": "Not found"
+      "value": "Nie znaleziono"
     }
   ],
   "message.nothing-selected": [
     {
       "type": 0,
-      "value": "Nothing selected."
+      "value": "Nic nie wybrano."
     }
   ],
   "message.page-not-found": [
@@ -2102,21 +2102,13 @@
   "message.sever-error": [
     {
       "type": 0,
-      "value": "Server error"
+      "value": "Błąd serwera"
     }
   ],
   "message.share-url": [
     {
       "type": 0,
-      "value": "To jest publicznie udostępniany adres URL dla "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Statystyki Twojej witryny są publicznie dostępne pod poniższym adresem URL:"
     }
   ],
   "message.team-already-member": [
@@ -2140,7 +2132,21 @@
   "message.tracking-code": [
     {
       "type": 0,
-      "value": "Kod śledzenia"
+      "value": "Aby śledzić statystyki dla tej witryny, umieść poniższy kod w sekcji "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "..."
+        }
+      ],
+      "type": 8,
+      "value": "head"
+    },
+    {
+      "type": 0,
+      "value": " swojego kodu HTML."
     }
   ],
   "message.transfer-team-website-to-user": [
@@ -2170,7 +2176,7 @@
   "message.unauthorized": [
     {
       "type": 0,
-      "value": "Unauthorized"
+      "value": "Brak uprawnień"
     }
   ],
   "message.user-deleted": [
